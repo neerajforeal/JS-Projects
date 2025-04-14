@@ -12,8 +12,8 @@ body {
 .card {
   width: 90%;
   max-width: 470px;
-  background: linear-gradient(135deg, #e5fe00e5, #b4b1c99f);
-  color: #fff;
+  background: linear-gradient(135deg, #9cc4a2e5, #d0cfdb9f);
+  color: #222020;
   margin: 100px auto 0;
   border-radius: 20px;
   padding: 40px 35px;
@@ -48,6 +48,17 @@ body {
   width: 60px;
   height: 60px;
   cursor: pointer;
+}
+
+.search button:hover {
+  background: #d0f7f4;
+  transform: scale(1.1);
+  transition: all 0.3s ease;
+}
+
+.search button:focus {
+  outline: 2px solid #555;
+  outline-offset: 2px;
 }
 
 .weather-icon {
@@ -89,4 +100,12 @@ body {
 .wind {
   font-size: 28px;
   margin-top: -6px;
+}
+
+.error {
+  text-align: left;
+  margin-left: 10px;
+  font-size: 14px;
+  margin-top: 10px;
+  display: none;
 }
